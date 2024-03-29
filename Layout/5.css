@@ -1,0 +1,41 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+#wrap {
+    width: 1250px;
+    height: 1080px;
+    margin: 0 auto;
+
+}
+
+#header {
+    width: 100%;
+    height: 100px;
+    display: flex;
+}
+
+#header .logo {
+    width: 20%;
+    height: 100%;
+    background-color: #3B5A42;
+}
+
+#header .nav {
+    width: 80%;
+    height: 100%;
+    background-color: #3b5a42;
+}
+
+#main {
+    width: 100%;
+    height: 880px;
+    background-color: #dcd7cd;
+}
+
+#footer {
+    width: 100%;
+    height: 100px;
+    background-color: #334e41;
+}
