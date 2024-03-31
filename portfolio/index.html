@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>자기소개 페이지</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Black+Han+Sans&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <div id="wrap">
+        <!--Header-->
+        <header id="header">
+            <h1><a href="#home"></a>PORTFOLIO</h1>
+            <nav>
+                <ul class="header__menu">
+                    <li><a href="#about" class="header__menu__item">ABOUT</a></li>
+                    <li><a href="#goal" class="header__menu__item">GOAL</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <!--Main-->
+        <main>
+            <!--Home-->
+            <section id="home">
+                <div class="container">
+                    <h2 class="home__text">안녕하세요!</h2>
+                    <p>제 이름은 <strong class="home__text--strong">김성연</strong>입니다.</p>
+                    <p> <strong class="home__text--strong">성장하는 개발자</strong>가 되고 싶어요.</p>
+                    <img class="home__img" src="img/profileCat.jpg" alt="profile"> 
+                </div>  
+            </section>
+
+            <!--About-->
+            <section id="about">
+                <div class="about__text max-container">
+                    <p>아주아주 간단한 소개</p>
+                    <ul>
+                        <li>학과: <span>컴퓨터공학과</span></li>
+                        <li>파트: <span>프론트엔드</span></li>
+                        <li>최근 관심사: <span>건강, 요리, 정리정돈</span></li>
+                    </ul>
+                </div>
+            </section>
+
+            <!--Goal-->
+            <section id="goal">
+                    <p>멋사 12기 활동의 목표</p>
+                    <ul class="goals">
+                        <li class="goal">
+                            <div class="goal__bubble">
+                                <p>여러가지 프로젝트 경험!</p>
+                            </div>
+                        </li>
+                        <li class="goal">
+                            <div class="goal__bubble">
+                                <p>활동을 통한 뿌듯함!!
+                                </p>
+                            </div>
+                        </li>
+                        <li class="goal">
+                            <div class="goal__bubble">
+                                <p>성장하며 자기 효능감 키우기!!!</p>
+                            </div>
+                        </li>
+                    </ul>   
+            </section>
+        </main>
+
+        <!--Footer-->
+        <footer id="footer">
+            <p>만든사람: 김성연</p>
+            <p>전화번호: 010-9958-3060</p>
+        </footer>
+    </div>
+  </body>
+</html>
