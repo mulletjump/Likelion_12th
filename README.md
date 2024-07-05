@@ -1,4 +1,4 @@
-# 안녕하세요 저희는 <span style="color: blue;">여기톤 12조</span>입니다~
+# - 안녕하세요 저희는 <span style="color: blue;">여기톤 12조</span>입니다~
 
 
 # 서비스 소개
